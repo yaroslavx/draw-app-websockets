@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+.settings-bar {
+  padding: 0 15px;
+  height: $toolbar-height;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 2px 5px gray;
+  top: $toolbar-height;
+}
+
+#line-width {
+  margin: 0 10px;
+}

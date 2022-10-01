@@ -1,0 +1,41 @@
+@import './variables.scss';
+
+.toolbar {
+  padding: 0 15px;
+  height: $toolbar-height;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 2px 5px gray;
+  z-index: 10;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.left {
+  margin-left: auto;
+}
+
+.colorInput {
+  background-color: #ffffff;
+  border: none;
+  height: 30px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #ffffff;
+  border: none;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
